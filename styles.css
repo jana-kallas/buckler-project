@@ -1,0 +1,164 @@
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsbold_italic';
+    src: url('fonts/poppins-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/poppins-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsextrabold';
+    src: url('fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/poppins-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsextrabold_italic';
+    src: url('fonts/poppins-extrabolditalic-webfont.woff2') format('woff2'),
+         url('fonts/poppins-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsextralight';
+    src: url('fonts/poppins-extralight-webfont.woff2') format('woff2'),
+         url('fonts/poppins-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsextralight_italic';
+    src: url('fonts/poppins-extralightitalic-webfont.woff2') format('woff2'),
+         url('fonts/poppins-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsitalic';
+    src: url('fonts/poppins-italic-webfont.woff2') format('woff2'),
+         url('fonts/poppins-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinslight';
+    src: url('fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinslight_italic';
+    src: url('fonts/poppins-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/poppins-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'poppinssemibold';
+}
+
+nav{
+    background-color: #D23937 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    height: 100px;
+}
+.navbar-brand{
+    margin-left: 100px;
+}
+.navbar-collapse{
+    position: absolute;
+    right: 100px;
+}
+.nav-link{
+    font-size: 14px !important;
+    color: white !important;
+}
+.carousel, .carousel img{
+    max-height: calc(100vh - 100px);
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.carousel-caption{
+    top: 100px;
+    left: 150px;
+    font-size: 42px;
+    text-align: left;
+    width: 520px;
+}
+.banner-button{
+    font-size: 24px;
+    background-color: #D23937;
+    width: 300px !important;
+    border-bottom-right-radius: 195px;
+    border-top-right-radius: 25px;
+    font-family: 'poppinsextrabold_italic' !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel-caption{
+        top: 80px;
+        left: 120px;
+        font-size: 42px;
+        text-align: left;
+        width: 520px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .carousel-caption{
+        top: 30px;
+        left: 50px;
+        font-size: 36px;
+        text-align: left;
+        width: 520px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .carousel-caption{
+        top: 10px;
+        left: 10px;
+        font-size: 30px;
+        text-align: left;
+        width: 360px;
+    }
+}
